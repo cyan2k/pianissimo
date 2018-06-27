@@ -57,22 +57,22 @@ a.rvts10, span.rvts10
  color: #008000;
  text-decoration: underline;
 }
-a.rvts11, span.rvts11
-{
- color: #0000ff;
- text-decoration: underline;
-}
-span.rvts12 /* Font Style */
+span.rvts11 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #c0c0c0;
 }
-a.rvts13, span.rvts13 /* Font Style */
+a.rvts12, span.rvts12 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #6666ff;
+ text-decoration: underline;
+}
+a.rvts13, span.rvts13
+{
+ color: #0000ff;
  text-decoration: underline;
 }
 /* ========== Para Styles ========== */
