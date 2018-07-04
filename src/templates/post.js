@@ -10,7 +10,7 @@ export default ({ data }) => {
       </audio>
 
       <br></br>
-      <embed src={data.allFile.edges[0].node.publicURL} width="100%" height="1500" type='application/pdf'></embed>
+      <embed src= {data.allFile.edges[0].node.publicURL + "#zoom=125"} width="1300" height="1500" type='application/pdf'></embed>
     </div>
   );
 };
