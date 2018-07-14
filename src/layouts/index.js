@@ -123,7 +123,7 @@ function renderMenu(menuarray, index)
   {
     return (
       <div>
-        <details style={{ textShadow: `none`, backgroundImage: `none`,  marginLeft: `1rem`, fontSize: 14 }}>
+        <details style={{ textShadow: `none`, backgroundImage: `none`,  marginLeft: `1rem`, fontSize: 16 }}>
           <summary>{menuarray[index].Header}</summary>
           {buildSubMenu(menuarray[index])}
           {renderMenu(menuarray[index].SubMenu,0)}
@@ -164,7 +164,7 @@ const ListLink = props =>
 
 export default ({ children, data }) => (
 <div>
-<div  style={{  padding: `1.25rem 0rem 0rem 0rem`, float: `left`, width: 350 }}>
+<div  style={{  padding: `1.25rem 0rem`, float: `left`, width: 300 }}>
         {data.allFile.edges.map(({ node }, index) =>
           <div>
             {buildMenu(node,index)}
