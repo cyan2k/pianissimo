@@ -12,7 +12,7 @@ src/data contains a directory "Graded Repertoire" with the subfolder "Grade 4" w
 
 After building the project with gatsby the application adds "Beethoven - Fuer Elise" and its path to the sidebar menu, generates a slug and a page at the slug for displaying the pdf and embedding the audio.
 
-![Generated Page](https://raw.githubusercontent.com/cyan2k/gatsby_pianissimo/master/docs/generatedpage.png "Generated Page")
+![Generated Page](https://github.com/cyan2k/pianissimo/blob/master/docs/generatedpage.png?raw=true "Generated Page")
 
 
 The goal of pianissimo is to provide the hobby pianist with some repertoire and methods like Bartok's Mikrokosmos with the possibility to listen to the score.
