@@ -8,10 +8,10 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^1.9.250",
+    "gatsby": "^5.3.3",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-typography": "^1.7.19",
-    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-source-filesystem": "^5.3.1",
     "typography-theme-fairy-gates": "^0.15.11"
   }
 }
